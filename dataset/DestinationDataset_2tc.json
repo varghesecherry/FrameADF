@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "FruitsTest"
+			"table": "del_del_vdc1_fruistsList_Test"
 		}
 	}
 }
