@@ -1,0 +1,9 @@
+{
+	"name": "SalWiz-DF-001",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "23a23c31-dd8b-4767-830d-3c41cd5526b5",
+		"tenantId": "c4b1c8ae-1861-41a2-9266-18cb0b1b54c4"
+	}
+}
