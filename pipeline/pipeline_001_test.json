@@ -2,6 +2,25 @@
 	"name": "pipeline_001_test",
 	"properties": {
 		"description": "Just to learn.  1. get a .xls file from the storage account and put it in a table. Add a trigger like every Monday? and add a id field and put in uniqe id based on the data run.",
+		"activities": [
+			{
+				"name": "Copy data 001",
+				"description": "getting the data from an .xls file.",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"enableStaging": false
+				}
+			}
+		],
 		"annotations": []
 	}
 }
