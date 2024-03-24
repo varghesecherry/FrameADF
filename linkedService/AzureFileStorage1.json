@@ -5,9 +5,9 @@
 		"annotations": [],
 		"type": "AzureFileStorage",
 		"typeProperties": {
-			"connectionString": "DefaultEndpointsProtocol=https;AccountName=varghesecherryfs;EndpointSuffix=core.windows.net;fruits_file=001;",
-			"fileShare": "salwizfileshare",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFGQ0YxNDY4LUNBNzMtNENERi1BRTAxLUREQjhBMzRCQUNCNF82OGRhMDQxYy00OTkxLTQzNDYtOTFlOC04NTAwYzYwY2Y4NTMiDQp9"
+			"host": "\\\\varghesecherryfs.file.core.windows.net\\salwizfileshare",
+			"userId": "Azure\\varghesecherryfs",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFGQ0YxNDY4LUNBNzMtNENERi1BRTAxLUREQjhBMzRCQUNCNF8yZmI0YWI3OS1iYzM4LTRjODctOGZhMy01Nzc4NTQxNzQzZGIiDQp9"
 		}
 	}
 }
