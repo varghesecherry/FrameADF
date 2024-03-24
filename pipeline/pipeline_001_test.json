@@ -1,0 +1,7 @@
+{
+	"name": "pipeline_001_test",
+	"properties": {
+		"description": "Just to learn.  1. get a .xls file from the storage account and put it in a table. Add a trigger like every Monday? and add a id field and put in uniqe id based on the data run.",
+		"annotations": []
+	}
+}
